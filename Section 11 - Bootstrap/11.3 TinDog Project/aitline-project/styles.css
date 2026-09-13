@@ -1,0 +1,35 @@
+body {
+background-color: #3d9eee;
+height: 100vh;
+}
+
+#home {
+  background-image: url('./image/plane.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+
+#services {
+  background-image: url('./image/profile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.screen {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(2, 34, 48, 0.7); /* Green with transparency */
+  border-radius: 10px;
+}
+#footer {
+  background-color: #0D47A1;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

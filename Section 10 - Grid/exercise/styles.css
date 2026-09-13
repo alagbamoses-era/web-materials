@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(155, 150, 150);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: rgb(237, 234, 234);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 3px;
+    background-color: rgb(247, 248, 249);
+
+}
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.form {
+    margin: 0 5px;
+    padding: 0 10px;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+.text-body {
+    max-width: 50%;
+    height: 250px;
+    margin-left: 20%;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+}
+
+.version {
+    color: rgb(16, 142, 16);
+    border-radius: 20px;
+    border: solid 3px green;
+    background-color: aquamarine;
+}
+li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+.navbar-items {
+    display: flex;
+}
+
+
+
+.text {
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+
+.overview {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+
+
+    
+
+}
+
+.sky {
+    grid-row: span 2;
+}
+
+.revenue {
+    grid-column: span 2;
+}
+.item {
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.traffic {
+    grid-column: span 2;
+    
+}
+
+.total {
+
+}
+
+.order {
+
+}
+
+.avg {
+
+}
+
+.customers {
+
+}
+
+.revenue {
+
+}
+
+.traffic {
+
+}
