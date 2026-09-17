@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+        .invisible {
+            visibility: hidden;
+            border: 5px solid red;
+            padding: 5px;
+            margin: 5px;
+        }
+        .visible {
+            visibility: visible;
+            border: 5px solid rgba(9, 235, 69, 0.455);
+            padding: 5px;
+        }
+        .invisible:hover {
+            background-color: rgba(48, 31, 238, 0.455);
+            cursor: pointer;
+            visibility: visible;
+            content-visibility: visible;
+        }
+</style>
+</head>
+<body>
+    <h1> CSS-Visibility</h1>
+    <div class="invisible">This is an invisible paragraph
+        <div class="visible">This is a visible paragraph</div>
+    </div>
+    
+    
+    
+</body>
+</html>

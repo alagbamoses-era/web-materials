@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+
+.huge {
+  font-size: 10rem;
+  color: blue;
+  font-weight: bold;
+}
+
+.second {
+  font-size: 5rem;
+  color: green;
+  font-weight: bold;
+}
