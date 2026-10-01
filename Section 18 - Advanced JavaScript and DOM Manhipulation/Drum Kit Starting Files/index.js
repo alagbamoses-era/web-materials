@@ -10,6 +10,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     //Detecting Button Press
 
     var buttonInnerHTML = this.innerHTML;
+    console.log(this)
 
     makeSound(buttonInnerHTML);
 
