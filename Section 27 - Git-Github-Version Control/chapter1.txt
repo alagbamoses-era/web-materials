@@ -1,0 +1,5 @@
+https://github.com/clupasq/word-mastermind
+
+https://github.com/MunGell/awesome-for-beginners
+
+https://github.com/awesome-selfhosted/awesome-selfhosted
